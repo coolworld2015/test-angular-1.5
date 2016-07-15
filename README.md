@@ -1,5 +1,5 @@
-# Test Angular 2.0 JavaScript
-git clone https://github.com/coolworld2015/test-angular-2.0-js.git
+# Test Angular 1.5 Web Components
+git clone https://github.com/coolworld2015/test-angular-1.5.git
 -------------------------------------------------------------------------------------------------
 npm i
 -------------------------------------------------------------------------------------------------
