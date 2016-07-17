@@ -8,7 +8,8 @@ var templateCache = require('gulp-angular-templatecache');
 
 var scripts = [
     './app/vendors/angular/angular.js',
-	'./app/vendors/angular-bootstrap/ui-bootstrap-tpls.js',
+	'./app/vendors/angular-component-router/angular_1_router.js',
+	'./app/vendors/angular-animate/angular-animate.js',
     './app/vendors/angular-ui-router/release/angular-ui-router.js',
     './app/src/**/!(*.test).js'
 ];

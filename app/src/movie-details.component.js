@@ -1,6 +1,6 @@
 (function () {
 
-    var module = angular.module("psMovies");
+    var module = angular.module("app");
 
     var controller = function() {
         var model = this;          

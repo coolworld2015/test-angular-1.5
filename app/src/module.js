@@ -12,7 +12,13 @@
     });
   */  
 
-    var module = angular.module("psMovies", ["ngComponentRouter", "ngAnimate"]);
-    module.value("$routerRootComponent", "movieApp");
-
+ 
+	
+	angular
+		.module('app', ["ngComponentRouter", "ngAnimate"]);
+		
+//----------------------------------------	
+ 	angular
+		.module('app')
+		.value("$routerRootComponent", "movieApp");
 }());

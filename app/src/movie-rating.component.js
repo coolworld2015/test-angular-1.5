@@ -1,7 +1,7 @@
 (function() {
     "use strict";
 
-    var module = angular.module("psMovies");
+    var module = angular.module("app");
     
     function buildEntries(value, max) {
         var entries = [];
@@ -13,7 +13,7 @@
     }
     
     module.component("movieRating", {
-        templateUrl: "/ps-movies/movie-rating.component.html",
+        templateUrl: "movie-rating.component.html",
         bindings: {
             value: "<",
             max: "<",

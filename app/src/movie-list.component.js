@@ -1,7 +1,7 @@
 (function() {
     "use strict";
 
-    var module = angular.module("psMovies");
+    var module = angular.module("app");
 
     function fetchMovies($http) {
         return $http.get("/movies.json")
@@ -46,7 +46,7 @@
         bindings: {
             "$router": "<"
         },
-        templateUrl: "/ps-movies/movie-list.component.html",
+        templateUrl: "movie-list.component.html",
         controllerAs: "model",
         controller: ["$http", controller]
     });

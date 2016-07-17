@@ -1,10 +1,10 @@
 (function() {
     "use strict";
     
-    var module = angular.module("psMovies");
+    var module = angular.module('app');
     
     module.component("movieApp", {
-        templateUrl: "/ps-movies/movie-app.component.html",
+        templateUrl: "movie-app.component.html",
         $routeConfig: [
             { path: "/list", component:"movieList", name: "List" },
             { path: "/about", component: "about", name: "About" },
